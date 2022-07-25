@@ -1,0 +1,31 @@
+.photoPr {
+  border-radius: 20px;
+}
+.info-pr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-modal-div {
+  display: flex;
+}
+@media (max-width: 990px) {
+  .content-modal-div {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .photoPr {
+    padding: 0px !important;
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .phot {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
