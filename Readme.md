@@ -28,7 +28,7 @@ You can get, post, delete and put in products but in brand just get and post.
 
 ## Can I run locally in my pc?
 
-Yes, the backend is configure for running locally , just install the dependencies in both folders (api and client):
+Yes, the backend is configure for running locally , just install the dependencies in both folders (ProductsForYou-BackEnd and ProductsForYou-FrontEnd):
 
 ```bash
 npm install
